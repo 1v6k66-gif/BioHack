@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="bg" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Свържете се с BioHack ЕООД – контактна форма, адрес, телефон и имейл." />
+  <title>Контакти – BioHack ЕООД</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+<header class="header" id="header">
+  <div class="container header-inner">
+    <a href="index.html" class="logo">
+      <img src="images/logo.png" alt="BioHack лого" class="logo-img" />
+    </a>
+    <nav class="nav" id="nav">
+      <a href="index.html" class="nav-link">Начало</a>
+      <a href="about.html" class="nav-link">За нас</a>
+      <a href="products.html" class="nav-link">Продукти</a>
+      <a href="contact.html" class="nav-link active">Контакти</a>
+    </nav>
+    <div class="header-actions">
+      <button class="theme-toggle" id="themeToggle" aria-label="Смени тема">
+        <span class="theme-icon">☀️</span>
+      </button>
+      <button class="hamburger" id="hamburger" aria-label="Меню">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<!-- PAGE HERO -->
+<section class="page-hero">
+  <div class="hero-bg">
+    <div class="hero-orb hero-orb-1"></div>
+    <div class="hero-orb hero-orb-2"></div>
+    <div class="hero-grid"></div>
+  </div>
+  <div class="container page-hero-content">
+    <span class="section-tag">Контакти</span>
+    <h1 class="page-hero-title">Свържете се <span class="gradient-text">с нас</span></h1>
+    <p>Готови сме да отговорим на всеки ваш въпрос за продуктите ни.</p>
+  </div>
+</section>
+
+<!-- CONTACT SECTION -->
+<section class="section">
+  <div class="container">
+    <div class="contact-grid">
+
+      <!-- FORM -->
+      <div class="contact-form-wrap" data-aos>
+        <h3>Изпратете съобщение</h3>
+        <form class="contact-form" id="contactForm" novalidate>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="name">Вашето име *</label>
+              <input type="text" id="name" name="name" placeholder="Иван Иванов" required />
+            </div>
+            <div class="form-group">
+              <label for="email">Имейл адрес *</label>
+              <input type="email" id="email" name="email" placeholder="ivan@example.com" required />
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="subject">Тема</label>
+            <select id="subject" name="subject">
+              <option value="">Изберете тема...</option>
+              <option value="knockout">KNOCKOUT – поръчка / въпрос</option>
+              <option value="hydro">HYDRO CHARGE – поръчка / въпрос</option>
+              <option value="focus">PURE FOCUS – поръчка / въпрос</option>
+              <option value="virilion">VIRILION RED – интерес</option>
+              <option value="other">Друго</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="phone">Телефон (незадължително)</label>
+            <input type="tel" id="phone" name="phone" placeholder="08X XXX XXXX" />
+          </div>
+          <div class="form-group">
+            <label for="message">Съобщение *</label>
+            <textarea id="message" name="message" rows="5" placeholder="Напишете вашето съобщение тук..." required></textarea>
+          </div>
+          <div class="form-group form-check">
+            <input type="checkbox" id="consent" name="consent" required />
+            <label for="consent">Съгласен съм с обработването на личните ми данни за целите на комуникацията.</label>
+          </div>
+          <button type="submit" class="btn btn-primary btn-lg btn-full">
+            <span class="btn-text">Изпрати съобщение →</span>
+          </button>
+          <div class="form-success" id="formSuccess">
+            ✅ Благодарим! Ще се свържем с вас скоро.
+          </div>
+        </form>
+      </div>
+
+      <!-- INFO PANEL -->
+      <div class="contact-info-wrap" data-aos>
+        <h3>Информация</h3>
+
+        <div class="contact-info-card">
+          <div class="contact-info-icon">📍</div>
+          <div>
+            <strong>Адрес</strong>
+            <p>ул. Приморска № 12<br/>9000 гр. Варна, България</p>
+          </div>
+        </div>
+
+        <div class="contact-info-card">
+          <div class="contact-info-icon">📞</div>
+          <div>
+            <strong>Телефон</strong>
+            <p><a href="tel:0886319373">088 631 9373</a></p>
+          </div>
+        </div>
+
+        <div class="contact-info-card">
+          <div class="contact-info-icon">✉️</div>
+          <div>
+            <strong>Имейл</strong>
+            <p><a href="mailto:ivaylomilushev27@itpg-varna.bg">ivaylomilushev27@itpg-varna.bg</a></p>
+          </div>
+        </div>
+
+        <div class="contact-info-card">
+          <div class="contact-info-icon">🕐</div>
+          <div>
+            <strong>Работно време</strong>
+            <p>Пон – Пет: 09:00 – 18:00<br/>Съб: 10:00 – 14:00<br/>Нед: Почивен ден</p>
+          </div>
+        </div>
+
+        <div class="contact-info-card">
+          <div class="contact-info-icon">🚚</div>
+          <div>
+            <strong>Доставка</strong>
+            <p>1-3 работни дни за България<br/>Наложен платеж или онлайн</p>
+          </div>
+        </div>
+
+        <!-- MAP PLACEHOLDER -->
+        <div class="map-placeholder">
+          <div class="map-pin">📍</div>
+          <p>ул. Приморска № 12, Варна</p>
+          <small>Морска градина, Варна</small>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- QUICK LINKS -->
+<section class="section quick-links-section">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-tag">Бърза навигация</span>
+      <h2 class="section-title">Какво търсите?</h2>
+    </div>
+    <div class="quick-links-grid">
+      <a href="products.html#knockout" class="quick-link-card">
+        <div class="ql-icon">🛌</div>
+        <h4>KNOCKOUT</h4>
+        <p>Добавка за качествен сън</p>
+      </a>
+      <a href="products.html#hydro" class="quick-link-card">
+        <div class="ql-icon">💧</div>
+        <h4>HYDRO CHARGE</h4>
+        <p>Електролитна формула</p>
+      </a>
+      <a href="products.html#focus" class="quick-link-card">
+        <div class="ql-icon">🧠</div>
+        <h4>PURE FOCUS</h4>
+        <p>Ноотропна добавка</p>
+      </a>
+      <a href="products.html#virilion" class="quick-link-card">
+        <div class="ql-icon">🔥</div>
+        <h4>VIRILION RED</h4>
+        <p>Натурална мъжка формула</p>
+      </a>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container footer-inner">
+    <div class="footer-brand">
+      <img src="images/logo.png" alt="BioHack" class="footer-logo" />
+      <p>BioHack ЕООД – Биотехнологични хранителни добавки от Варна.</p>
+    </div>
+    <div class="footer-links">
+      <h5>Навигация</h5>
+      <a href="index.html">Начало</a>
+      <a href="about.html">За нас</a>
+      <a href="products.html">Продукти</a>
+      <a href="contact.html">Контакти</a>
+    </div>
+    <div class="footer-links">
+      <h5>Продукти</h5>
+      <a href="products.html#knockout">KNOCKOUT</a>
+      <a href="products.html#hydro">HYDRO CHARGE</a>
+      <a href="products.html#focus">PURE FOCUS</a>
+      <a href="products.html#virilion">VIRILION RED</a>
+    </div>
+    <div class="footer-contact">
+      <h5>Контакти</h5>
+      <p>📍 ул. Приморска № 12, 9000 Варна</p>
+      <p>📞 088 631 9373</p>
+      <p>✉️ ivaylomilushev27@itpg-varna.bg</p>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p>© 2025 BioHack ЕООД. Всички права запазени.</p>
+  </div>
+</footer>
+
+<button class="back-top" id="backTop" aria-label="Нагоре">↑</button>
+<script src="script.js"></script>
+</body>
+</html>

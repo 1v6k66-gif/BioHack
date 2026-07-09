@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="bg" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Продуктите на BioHack – KNOCKOUT, HYDRO CHARGE, PURE FOCUS, VIRILION RED." />
+  <title>Продукти – BioHack ЕООД</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+<header class="header" id="header">
+  <div class="container header-inner">
+    <a href="index.html" class="logo">
+      <img src="images/logo.png" alt="BioHack лого" class="logo-img" />
+    </a>
+    <nav class="nav" id="nav">
+      <a href="index.html" class="nav-link">Начало</a>
+      <a href="about.html" class="nav-link">За нас</a>
+      <a href="products.html" class="nav-link active">Продукти</a>
+      <a href="contact.html" class="nav-link">Контакти</a>
+    </nav>
+    <div class="header-actions">
+      <button class="theme-toggle" id="themeToggle" aria-label="Смени тема">
+        <span class="theme-icon">☀️</span>
+      </button>
+      <button class="hamburger" id="hamburger" aria-label="Меню">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<!-- PAGE HERO -->
+<section class="page-hero">
+  <div class="hero-bg">
+    <div class="hero-orb hero-orb-1"></div>
+    <div class="hero-orb hero-orb-2"></div>
+    <div class="hero-grid"></div>
+  </div>
+  <div class="container page-hero-content">
+    <span class="section-tag">Нашите формули</span>
+    <h1 class="page-hero-title">Продукти <span class="gradient-text">BioHack</span></h1>
+    <p>Четири прецизно разработени добавки за четири ключови цели.</p>
+  </div>
+</section>
+
+<!-- FILTER TABS -->
+<section class="section" style="padding-bottom:0">
+  <div class="container">
+    <div class="filter-tabs" id="filterTabs">
+      <button class="filter-tab active" data-filter="all">Всички</button>
+      <button class="filter-tab" data-filter="sleep">🛌 Сън</button>
+      <button class="filter-tab" data-filter="hydration">💧 Хидратация</button>
+      <button class="filter-tab" data-filter="focus">🧠 Фокус</button>
+      <button class="filter-tab" data-filter="vitality">🔥 Виталност</button>
+    </div>
+  </div>
+</section>
+
+<!-- KNOCKOUT -->
+<section class="section product-section" id="knockout" data-category="sleep">
+  <div class="container">
+    <div class="product-detail-grid">
+      <div class="product-detail-img" data-aos>
+        <div class="product-img-wrap">
+          <img src="images/knockout.png" alt="KNOCKOUT Sleep Support" />
+        </div>
+        <div class="product-badges-row">
+          <span class="badge-pill">🏆 Bestseller</span>
+          <span class="badge-pill">60 капсули</span>
+          <span class="badge-pill">200г пудра</span>
+        </div>
+      </div>
+      <div class="product-detail-info" data-aos>
+        <span class="product-category-tag">🛌 Добавка за сън</span>
+        <h2 class="product-name">KNOCKOUT</h2>
+        <p class="product-tagline">Sleep Support Formula</p>
+        <p class="product-description">KNOCKOUT е разработена за хора, чийто сън е компрометиран от стрес, тревожност или модерния забързан начин на живот. Комбинацията от GABA, Magnesium Glycinate и L-Theanine работи синергично за успокояване на нервната система, ускоряване на заспиването и подобряване на качеството на дълбоката фаза на съня.</p>
+
+        <div class="ingredients-block">
+          <h4>🧪 Съставки</h4>
+          <div class="ingredient-tags">
+            <span class="ing-tag">GABA</span>
+            <span class="ing-tag">Magnesium Glycinate</span>
+            <span class="ing-tag">L-Theanine</span>
+            <span class="ing-tag">Витамин B1</span>
+            <span class="ing-tag">Витамин C</span>
+          </div>
+        </div>
+
+        <div class="benefits-block">
+          <h4>✅ Ползи</h4>
+          <ul class="benefits-list">
+            <li><span class="check">✓</span> Подобряване на качеството на съня</li>
+            <li><span class="check">✓</span> Намаляване на стрес и тревожност</li>
+            <li><span class="check">✓</span> Подпомагане на дълбока релаксация</li>
+            <li><span class="check">✓</span> Укрепване на имунната система</li>
+          </ul>
+        </div>
+
+        <div class="pricing-block">
+          <div class="price-option">
+            <div class="price-option-label">Капсули (60 бр.)</div>
+            <div class="price-option-price">14.99 €</div>
+            <a href="contact.html" class="btn btn-primary">Поръчай</a>
+          </div>
+          <div class="price-option">
+            <div class="price-option-label">Пудра (200г)</div>
+            <div class="price-option-price">19.99 €</div>
+            <a href="contact.html" class="btn btn-outline">Поръчай</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="product-divider"></div>
+
+<!-- HYDRO CHARGE -->
+<section class="section product-section" id="hydro" data-category="hydration">
+  <div class="container">
+    <div class="product-detail-grid reverse">
+      <div class="product-detail-info" data-aos>
+        <span class="product-category-tag">💧 Електролитна добавка</span>
+        <h2 class="product-name">HYDRO CHARGE</h2>
+        <p class="product-tagline">Electrolyte Powder Formula</p>
+        <p class="product-description">HYDRO CHARGE е прецизно балансирана електролитна формула, създадена за хора с активен начин на живот. Пет ключови минерала в оптимални съотношения осигуряват пълноценна хидратация, ускорено възстановяване след физическо усилие и поддържане на електролитния баланс.</p>
+
+        <div class="ingredients-block">
+          <h4>🧪 Съставки</h4>
+          <div class="ingredient-tags">
+            <span class="ing-tag">Натрий</span>
+            <span class="ing-tag">Калий</span>
+            <span class="ing-tag">Магнезий</span>
+            <span class="ing-tag">Калций</span>
+            <span class="ing-tag">Цинк</span>
+          </div>
+        </div>
+
+        <div class="benefits-block">
+          <h4>✅ Ползи</h4>
+          <ul class="benefits-list">
+            <li><span class="check">✓</span> Оптимална хидратация на организма</li>
+            <li><span class="check">✓</span> Ускорено възстановяване след тренировка</li>
+            <li><span class="check">✓</span> Подобрена енергия и издръжливост</li>
+            <li><span class="check">✓</span> Баланс на електролитите</li>
+          </ul>
+        </div>
+
+        <div class="pricing-block">
+          <div class="price-option">
+            <div class="price-option-label">Пудра (300г)</div>
+            <div class="price-option-price">17.49 €</div>
+            <a href="contact.html" class="btn btn-primary">Поръчай</a>
+          </div>
+        </div>
+      </div>
+      <div class="product-detail-img" data-aos>
+        <div class="product-img-wrap hydro-wrap">
+          <img src="images/hydro-charge.png" alt="HYDRO CHARGE Electrolyte Powder" />
+        </div>
+        <div class="product-badges-row">
+          <span class="badge-pill">💧 Електролити</span>
+          <span class="badge-pill">300г пудра</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="product-divider"></div>
+
+<!-- PURE FOCUS -->
+<section class="section product-section" id="focus" data-category="focus">
+  <div class="container">
+    <div class="product-detail-grid">
+      <div class="product-detail-img" data-aos>
+        <div class="product-img-wrap">
+          <img src="images/pure-focus.png" alt="PURE FOCUS Nootropic" />
+        </div>
+        <div class="product-badges-row">
+          <span class="badge-pill">🧠 Ноотроп</span>
+          <span class="badge-pill">150г пудра</span>
+        </div>
+      </div>
+      <div class="product-detail-info" data-aos>
+        <span class="product-category-tag">🧠 Ноотропна добавка</span>
+        <h2 class="product-name">PURE FOCUS</h2>
+        <p class="product-tagline">Nootropic Mental Performance Formula</p>
+        <p class="product-description">PURE FOCUS е разработена за хора, които изискват максимална когнитивна производителност – студенти, предприемачи и всеки, чиято работа изисква дълги часове на концентрация. L-Tyrosine поддържа синтеза на допамин, докато натуралният кофеин от зелени кафени зърна осигурява чиста енергия без характерния срив.</p>
+
+        <div class="ingredients-block">
+          <h4>🧪 Съставки</h4>
+          <div class="ingredient-tags">
+            <span class="ing-tag">L-Tyrosine</span>
+            <span class="ing-tag">Кофеин (зелено кафе)</span>
+            <span class="ing-tag">Витамин B6</span>
+            <span class="ing-tag">Витамин B12</span>
+          </div>
+        </div>
+
+        <div class="benefits-block">
+          <h4>✅ Ползи</h4>
+          <ul class="benefits-list">
+            <li><span class="check">✓</span> Подобрен ментален фокус</li>
+            <li><span class="check">✓</span> Повишена концентрация</li>
+            <li><span class="check">✓</span> Ментална яснота и бистрота</li>
+            <li><span class="check">✓</span> Естествена, устойчива енергия</li>
+          </ul>
+        </div>
+
+        <div class="pricing-block">
+          <div class="price-option">
+            <div class="price-option-label">Пудра (150г)</div>
+            <div class="price-option-price">22.49 €</div>
+            <a href="contact.html" class="btn btn-primary">Поръчай</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="product-divider"></div>
+
+<!-- VIRILION RED -->
+<section class="section product-section" id="virilion" data-category="vitality">
+  <div class="container">
+    <div class="product-detail-grid reverse">
+      <div class="product-detail-info" data-aos>
+        <span class="product-category-tag">🔥 Тестостеронна добавка</span>
+        <h2 class="product-name">VIRILION RED</h2>
+        <p class="product-tagline">Natural Male Vitality Formula</p>
+        <div class="coming-soon-badge">⏳ Очаквайте скоро</div>
+        <p class="product-description">VIRILION RED е натурална формула за мъже, създадена с внимателно подбрана комбинация от растителни екстракти и ключови минерали. Съставът е проектиран да поддържа жизнеността, енергията и естествения тонус в ежедневието. Без изкуствени оцветители, без пълнители – само чист и модерен натурален продукт.</p>
+
+        <div class="ingredients-block">
+          <h4>🧪 Съставки</h4>
+          <div class="ingredient-tags">
+            <span class="ing-tag">Трибулус екстракт</span>
+            <span class="ing-tag">Корен женшен</span>
+            <span class="ing-tag">Джинджифил</span>
+            <span class="ing-tag">Сминдух</span>
+            <span class="ing-tag">Цинк</span>
+            <span class="ing-tag">Магнезий</span>
+            <span class="ing-tag">Витамин B6</span>
+          </div>
+        </div>
+
+        <div class="benefits-block">
+          <h4>✅ Ползи</h4>
+          <ul class="benefits-list">
+            <li><span class="check">✓</span> Поддържа естествените нива на тестостерон</li>
+            <li><span class="check">✓</span> Подобрява енергията и жизнеността</li>
+            <li><span class="check">✓</span> Укрепва физическия тонус</li>
+            <li><span class="check">✓</span> 100% натурална формула</li>
+          </ul>
+        </div>
+
+        <div class="pricing-block">
+          <div class="price-option">
+            <div class="price-option-label">Капсули (очаквайте)</div>
+            <div class="price-option-price">Скоро</div>
+            <a href="contact.html" class="btn btn-ghost">Уведоми ме</a>
+          </div>
+        </div>
+      </div>
+      <div class="product-detail-img" data-aos>
+        <div class="product-img-wrap virilion-wrap">
+          <img src="images/virilion-red.png" alt="Virilion Red Testosterone Support" />
+        </div>
+        <div class="product-badges-row">
+          <span class="badge-pill">🌿 Натурален</span>
+          <span class="badge-pill badge-new">New</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- COMPARISON TABLE -->
+<section class="section comparison-section">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-tag">Сравнение</span>
+      <h2 class="section-title">Всички продукти с един поглед</h2>
+    </div>
+    <div class="table-wrapper">
+      <table class="comparison-table">
+        <thead>
+          <tr>
+            <th>Продукт</th>
+            <th>Цел</th>
+            <th>Форма</th>
+            <th>Цена</th>
+            <th>Срок</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>KNOCKOUT</strong></td>
+            <td>Качествен сън</td>
+            <td>Капсули / Пудра</td>
+            <td>14.99 – 19.99 €</td>
+            <td>1-3 дни</td>
+          </tr>
+          <tr>
+            <td><strong>HYDRO CHARGE</strong></td>
+            <td>Хидратация</td>
+            <td>Пудра</td>
+            <td>17.49 €</td>
+            <td>1-3 дни</td>
+          </tr>
+          <tr>
+            <td><strong>PURE FOCUS</strong></td>
+            <td>Ментален фокус</td>
+            <td>Пудра</td>
+            <td>22.49 €</td>
+            <td>1-3 дни</td>
+          </tr>
+          <tr>
+            <td><strong>VIRILION RED</strong></td>
+            <td>Мъжка виталност</td>
+            <td>Капсули</td>
+            <td>Скоро</td>
+            <td>–</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section class="section faq-section">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-tag">FAQ</span>
+      <h2 class="section-title">Често задавани въпроси</h2>
+    </div>
+    <div class="faq-list">
+      <div class="faq-item">
+        <button class="faq-question">Как да поръчам? <span class="faq-arrow">↓</span></button>
+        <div class="faq-answer"><p>Можете да поръчате чрез нашата контактна форма или директно на телефон 088 631 9373. Доставяме в рамките на 1-3 работни дни.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-question">Подходящи ли са за вегетарианци? <span class="faq-arrow">↓</span></button>
+        <div class="faq-answer"><p>Пудрените форми са изцяло вегетариански. При капсулите, моля консултирайте се с нас за конкретния продукт.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-question">Могат ли да се комбинират продуктите? <span class="faq-arrow">↓</span></button>
+        <div class="faq-answer"><p>KNOCKOUT (вечер) и HYDRO CHARGE (сутрин/след тренировка) са перфектна комбинация. PURE FOCUS се приема преди работа или учене. При съмнения консултирайте се с лекар.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-question">Кога ще видя резултати? <span class="faq-arrow">↓</span></button>
+        <div class="faq-answer"><p>KNOCKOUT и PURE FOCUS действат от първата употреба. HYDRO CHARGE показва разлика след 1-2 тренировки. За оптимални резултати препоръчваме 4-8 седмици редовна употреба.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-question">Има ли странични ефекти? <span class="faq-arrow">↓</span></button>
+        <div class="faq-answer"><p>Формулите ни са разработени с безопасност като приоритет. При предписана медикация или заболяване, консултирайте се с лекар преди употреба.</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="cta-banner">
+  <div class="cta-banner-bg"><div class="hero-orb hero-orb-1"></div></div>
+  <div class="container cta-banner-inner">
+    <h2>Имате въпроси?</h2>
+    <p>Свържете се с нас и ще ви помогнем да намерите правилния продукт за вашите цели.</p>
+    <a href="contact.html" class="btn btn-primary btn-lg">Свържи се с нас</a>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container footer-inner">
+    <div class="footer-brand">
+      <img src="images/logo.png" alt="BioHack" class="footer-logo" />
+      <p>BioHack ЕООД – Биотехнологични хранителни добавки от Варна.</p>
+    </div>
+    <div class="footer-links">
+      <h5>Навигация</h5>
+      <a href="index.html">Начало</a>
+      <a href="about.html">За нас</a>
+      <a href="products.html">Продукти</a>
+      <a href="contact.html">Контакти</a>
+    </div>
+    <div class="footer-links">
+      <h5>Продукти</h5>
+      <a href="products.html#knockout">KNOCKOUT</a>
+      <a href="products.html#hydro">HYDRO CHARGE</a>
+      <a href="products.html#focus">PURE FOCUS</a>
+      <a href="products.html#virilion">VIRILION RED</a>
+    </div>
+    <div class="footer-contact">
+      <h5>Контакти</h5>
+      <p>📍 ул. Приморска № 12, 9000 Варна</p>
+      <p>📞 088 631 9373</p>
+      <p>✉️ ivaylomilushev27@itpg-varna.bg</p>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p>© 2025 BioHack ЕООД. Всички права запазени.</p>
+  </div>
+</footer>
+
+<button class="back-top" id="backTop" aria-label="Нагоре">↑</button>
+<script src="script.js"></script>
+</body>
+</html>
